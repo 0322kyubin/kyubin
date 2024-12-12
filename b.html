@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        a{
+            color:#333;
+            text-decoration: none;
+        }
+        li{
+            list-style: none;
+        }
+        body{
+            width: 100%;
+        }
+        header{
+            width: 100%;
+            height: 60px;
+            display: flex;
+        }
+        header .nav{
+            padding-top: 10px;
+            font-size: 17px;
+        }
+        header .nav a{
+            padding-left: 30px;
+        }
+        header .nav a:hover{
+            color:#2500f7;
+        }
+        header .nav .select{
+            text-decoration: underline;
+        }
+        header .logo{
+            padding-left: 1400px;
+        }
+        main{
+            width: 100%;
+            display: flex;
+        }
+        main .main-1{
+            width:20%;
+            height: 800px;
+        }
+        main .main-1 .cont1{
+            width: 250px;
+            height: 150px;
+            text-align: center;
+            margin-left: 63px;
+            margin-top: 250px;
+            font-size: 17px;
+        }
+        main .main-1 .cont1 p{
+            padding: 10px;  
+        }
+        main .main-2{
+            width: 60%;
+            height: 800px;
+        }
+        main .main-2 img{
+            padding-top: 65px;
+            padding-left: 6px;
+        }
+        main .main-2 h1{
+            padding-left: 460px;
+            margin-top: 20px;
+        }
+        main .main-3{
+            width: 20%;
+            height: 800px;
+        }
+        main .main-3 .cont2{
+            width: 250px;
+            height: 150px;
+            text-align: center;
+            margin-left: 63px;
+            margin-top: 500px;
+            font-size: 17px;
+        }
+        main .main-3 .cont2 p{
+            padding: 10px;  
+        }
+        #sub{
+            width: 100%;
+            height: 600px;
+            margin-top: 100px;
+        }
+        #sub h2{
+            padding-left: 440px;
+            font-size: 30px;
+        }
+        #sub .gallery{
+            width: 1000px;
+            height: 600px;
+            margin-left: 470px;
+        }
+        #sub .gallery ul{
+            display: flex;
+        }
+        #sub .gallery ul li{
+            text-align: center;
+            padding-right: 40px;
+            padding-top: 100px;
+        }
+        #sub .gallery ul li:first-child{
+            padding-left: 0;
+        }
+        #sub .gallery ul li p{
+            padding: 15px;
+            padding-top: 120px;
+            line-height: 2;
+        }
+        
+        #sub2{
+            width: 100%;
+            height: 800px;
+        }
+        #sub2 h2{
+            padding-top: 150px;
+            padding-left: 900px;
+            font-size: 30px;
+        }
+        #sub2 video{
+            padding-left: 650px;
+            padding-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>      
+        <div class="nav">
+            <a href="index.html">짱구는</a>
+            <a href="a.html">지락실</a>
+            <a href="#" class="select">워크돌</a>
+            <a href="c.html">차쥐뿔</a>
+            <a href="d.html">혜  &nbsp;안</a>
+        </div>
+        <div class="logo">
+            <a href="e.html"><img src="로고.jpg"></a>
+        </div>
+    </header>
+    <main>
+        <div class="main-1">
+            <div class="cont1">
+                <p>
+                    대한민국의 유튜브 웹예능 프로그램. 매주 목요일 오후 7시에 공개된다. 워크돌이라는 이름답게 게스트 역시 대부분 아이돌만 나온다.
+                </p>
+            </div>
+        </div>
+        <div class="main-2">
+            <h1>워크돌-오해원</h1>
+            <img src="워크돌.jpg_large">
+        </div>
+        <div class="main-3">
+            <div class="cont2">
+                <p>
+                    워크맨의 서브 콘텐츠다. "세상에 모든 JOB을 리뷰하는 K-POP 아이돌의 알바 체험기"로서 아이돌이 직접 여러 직업을 체험 해보는 것이 주된 내용이다. 프로그램 포맷은 워크맨과 동일하다.
+                </p>
+        </div>
+    </main>
+    <div id="sub">
+        <div class="gallery">
+            <h2>인물정보</h2>
+            <ul>
+                <li>
+                    <img src="오해원.jpg">
+                <li>
+                    <p>
+                        오해원 : 대한민국의 가수. JYP엔터테인먼트 소속 6인조 걸그룹 NMIXX의 멤버이다. 
+                        NMIXX의 리더를 맡고 있다. 자체 예능에서도 주로 진행, MC 담당이고, 엔믹스 고등학교 편에서도 임시 반장이었다.
+                        쿨하고 털털한 성격으로, 분위기 메이커라고 한다. 청순한 외모와 상반되는 매력이라 팬들은 더 좋아한다.
+                        닮은 캐릭터로는 농담곰, 치이카와, 시나모롤, 마루는 강쥐의 최마루가 있다.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="sub2">
+        <h2>영상보기</h2>
+        <video autoplay  controls  loop>
+            <Source src="워크돌.mp4" type="video/mp4">
+        </video>
+    </div>
+</body>
+</html>
